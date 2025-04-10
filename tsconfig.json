@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "jsx": "react-jsx",
+      "baseUrl": "./src",
+      "types": ["jest", "node"],
+      "paths": {
+        "@data/*": ["data/*"],
+        "@components/*": ["components/*"],
+        "@pages/*": ["pages/*"]
+      },
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true
+    },
+    "include": ["src/**/*"]
+  }
+
+  
