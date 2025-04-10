@@ -33,14 +33,14 @@ const WeeklyActivityChart: React.FC<WeeklyActivityChartProps> = ({ data }) => {
       {
         label: "Deposit",
         data: data.map((d) => d.deposit),
-        backgroundColor: "#3B82F6", // blue-500
+        backgroundColor: "#3B82F6",
         borderRadius: 6,
         barThickness: 24,
       },
       {
         label: "Withdraw",
         data: data.map((d) => d.withdrawal),
-        backgroundColor: "#000000", // black
+        backgroundColor: "#000000",
         borderRadius: 6,
         barThickness: 24,
       },
@@ -53,14 +53,14 @@ const WeeklyActivityChart: React.FC<WeeklyActivityChartProps> = ({ data }) => {
       legend: {
         position: "top" as const,
         labels: {
-          color: "#374151", // gray-700
+          color: "#374151",
           boxWidth: 10,
           usePointStyle: true,
           pointStyle: "circle",
         },
       },
       tooltip: {
-        backgroundColor: "#111827", // gray-900
+        backgroundColor: "#111827",
         titleColor: "#ffffff",
         bodyColor: "#ffffff",
         cornerRadius: 6,
@@ -73,7 +73,7 @@ const WeeklyActivityChart: React.FC<WeeklyActivityChartProps> = ({ data }) => {
           display: false,
         },
         ticks: {
-          color: "#6B7280", // gray-500
+          color: "#6B7280",
           font: {
             size: 12,
           },
@@ -82,10 +82,10 @@ const WeeklyActivityChart: React.FC<WeeklyActivityChartProps> = ({ data }) => {
       y: {
         beginAtZero: true,
         grid: {
-          color: "#E5E7EB", // gray-200
+          color: "#E5E7EB",
         },
         ticks: {
-          color: "#6B7280", // gray-500
+          color: "#6B7280",
           font: {
             size: 12,
           },
